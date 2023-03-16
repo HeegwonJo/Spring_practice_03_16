@@ -25,9 +25,10 @@ public class MemberController {
                     """.stripIndent();
         }
 
+
         return """
                 <h1>로그인</h1>
-                <form action="doLogin">
+                <form action="member/doLogin">
                 <input type="text" placeholder="아이디" name="username">
                 <input type="password" placeholder="비번호" name="password">
                 <input type="submit" value="로그인">
